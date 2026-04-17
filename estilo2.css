@@ -1,0 +1,61 @@
+navbar {
+    color: #C5A059;
+}
+
+body {
+    background-color: #FFF0F5; 
+    color: #C5A059; 
+    font-family: 'Arial', sans-serif; 
+}
+
+
+.product-card img {
+    height: 220px;
+    object-fit: contain; 
+    transition: transform 0.3s ease;
+}
+.card-title.text-center {
+    text-align: center;
+    color: #C5A059; 
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.product-card:hover img {
+    transform: scale(1.05);
+}
+
+/* Padronização dos botões */
+.btn-primary {
+    background-color: #C5A059;
+    border: none;
+    border-radius: 20px; 
+}
+
+.btn-primary:hover {
+    background-color: #C5A059;
+}
+
+/* Ajusta o tamanho do carrossel para não invadir os produtos */
+.carousel-inner img {
+    height: 450px; 
+    object-fit: cover; 
+}
+
+#carouselExampleCaptions {
+    margin-bottom: 50px;
+}
+
+.card {
+    align-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+    margin-top: 30px; 
+}
