@@ -39,6 +39,25 @@ body {
     background-color: #C5A059;
 }
 
+.btn-success {
+    background-color: #C5A059;
+    border: none;
+    border-radius: 10px; 
+}
+
+.btn-warning {
+    background-color: #C5A059;
+    border: none;
+    border-radius: 10px;
+    color: #FFF0F5;
+}
+
+.btn-danger {
+    background-color: #C5A059;
+    border: none;
+    border-radius: 10px; 
+}
+
 /* Ajusta o tamanho do carrossel para não invadir os produtos */
 .carousel-inner img {
     height: 450px; 
