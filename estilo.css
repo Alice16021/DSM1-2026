@@ -67,3 +67,9 @@ body {
 #carouselExampleCaptions {
     margin-bottom: 50px;
 }
+
+.bg-gradient text-black mt-4 p-4 {
+    background-color: #C5A059;
+    color: #FFF0F5;
+    padding: 20px 0;
+}
